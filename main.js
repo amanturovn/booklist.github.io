@@ -19,9 +19,9 @@ UI.prototype.addBookToList = function (book) {
 
 `
     bookAdd.appendChild(tr);
-    // tr.addEventListener("click", function () {
-    //     this.remove();
-    // })
+    tr.addEventListener("click", function () {
+        this.remove();
+    })
 };
 
 UI.prototype.clear = function () {
